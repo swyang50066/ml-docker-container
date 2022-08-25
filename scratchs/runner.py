@@ -42,6 +42,7 @@ def run():
     y_pred = model.predict(X_test_poly)
 
     # Display result
+    '''
     fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(10, 10))
 
     axes.scatter(X_train, y_train, color="green")
@@ -51,6 +52,7 @@ def run():
 
     plt.show()
     plt.clf()
+    '''
 
     # Save result
     output = pd.DataFrame(dict
